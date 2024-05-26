@@ -1,5 +1,11 @@
-CC = "/opt/microchip/xc8/v2.46/pic-as/bin/pic-as"
+CPU = 16F1789
+PROGRAMMER = PPK4
 
+IPE_DIR = /opt/microchip/mplabx/v6.20/mplab_platform/mplab_ipe/
+FLASH_CMD = java -jar $(IPE_DIR)/ipecmd.jar
+FLASH_ARGS = -T$(PROGRAMMER) -E -M -P$(CPU) -F"$(EXEC).hex" -OL
+
+CC = "/opt/microchip/xc8/v2.46/pic-as/bin/pic-as"
 CFLAGS = -mcpu=PIC16F1789 \
 	-D__DEBUG=1 \
 	-mdfp="/opt/microchip/mplabx/v6.20/packs/Microchip/PIC12-16F1xxx_DFP/1.7.242/xc8" \
@@ -19,13 +25,20 @@ CFLAGS = -mcpu=PIC16F1789 \
 
 OBJS = draw.o game_logic.o inputs.o music.o utils.o video.o main.o
 INC = draw.inc game_logic.inc music.inc video.inc bits.inc ram.inc
-EXEC = ddr.hex
+EXEC = ddr
 
-all: $(OBJS) $(INC)
+PHONY: all clean flash
+
+all: $(EXEC)
+
+$(EXEC): $(OBJS) $(INC)
 	$(CC) $(OBJS) -o $(EXEC) $(CFLAGS)
 
 %.o: %.s
 	$(CC) -c $< -o $@ $(CFLAGS)
+
+flash: $(EXEC)
+	$(FLASH_CMD) $(FLASH_ARGS)
 
 clean:
 	rm -rf ./*.o ./*.i ./*.d ./*.lst ./*.rlf ./*.hex ./*.hxl ./*.elf ./*.cmf ./*.sym ./*.map
