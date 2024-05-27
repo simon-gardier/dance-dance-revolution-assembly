@@ -41,9 +41,9 @@ The music is generated "from scratch" using one psmc module of the PIC. More exp
 
 ## Results illustrated
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="illustrations/menu_1.jpg" alt="Game menu - default view" style="width: 33%;"/>
-  <img src="illustrations/menu_2.jpg" alt="Game menu - high score updated" style="width: 33%;"/>
-  <img src="illustrations/game.jpg" alt="in game view with score and heart system" style="width: 33%;"/>
+  <img src="illustrations/menu_1.jpg" alt="Game menu - default view" style="width: 31%;"/>
+  <img src="illustrations/menu_2.jpg" alt="Game menu - high score updated" style="width: 31%;"/>
+  <img src="illustrations/game.jpg" alt="in game view with score and heart system" style="width: 31%;"/>
 </div>
 
 - On the left the menu on start.
