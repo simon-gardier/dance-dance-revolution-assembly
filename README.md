@@ -20,7 +20,7 @@ Disclaimer : It is recommended to take a look the `electrical_schematic.pdf` and
 
 This project is a simple remake of the famous [Dance Dance Revoluation game](https://fr.wikipedia.org/wiki/Dance_Dance_Revolution) from Konami.<br>
 The project is designed for the [PIC16F1789](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001675C.pdf).<br>
-The project was developped using [MPLAB X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide), documentation [here](https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/UserGuides/MPLAB-XC8-PIC-Assembler-User-Guide-50002974.pdf).
+The project was developped using [MPLAB X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide) and picas, documentation [here](https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/UserGuides/MPLAB-XC8-PIC-Assembler-User-Guide-50002974.pdf).
 
 It comes with :
 - A definition of 104x144 pixels (up to 416x576 pixels with enough RAM).
