@@ -34,7 +34,7 @@ Note : No copying (even partial) of this code within the scope of the INFO2055/A
 
 ### Video signal generation
 The signal generated follows the [PAL-G standard](https://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.470-6-199811-S!!PDF-E.pdf).
-An introduction to PAL signal generation can be found on [Rickad Gunee's page](https://web.archive.org/web/20180624093934/http://www.rickard.gunee.com/projects/video/pic/howto.php).
+An introduction to PAL signal generation can be found on [Rickard Gunee's page](https://web.archive.org/web/20180624093934/http://www.rickard.gunee.com/projects/video/pic/howto.php).
 
 ### Music generation
 The music is generated "from scratch" using one psmc module of the PIC. More explanation can be found in `music.s` / `music.inc`.
