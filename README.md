@@ -30,6 +30,7 @@ It comes with :
 - Heart system (elimination after 3 missed arrows).
 
 Project undertaken as part of the INFO2055 course given by Pr. Boigelot at ULiège.<br>
+Final grade : 20/20.
 Note : No copying (even partial) of this code within the scope of the INFO2055/APRI0007 course will be tolerated.
 
 ### Video signal generation
