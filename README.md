@@ -16,7 +16,7 @@
 
 ## Quick presentation
 
-Disclaimer : It is recommended to take a look the `electrical_schematic.pdf` and `report.pdf` for detailed explanations.
+Disclaimer : It is recommended to take a look at the `electrical_schematic.pdf` and `report.pdf` for detailed explanations.
 
 This project is a simple remake of the famous [Dance Dance Revoluation game](https://fr.wikipedia.org/wiki/Dance_Dance_Revolution) from Konami.<br>
 The project is designed for the [PIC16F1789](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001675C.pdf).<br>
