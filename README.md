@@ -7,7 +7,7 @@
   <img src="illustrations/menu_2.jpg" alt="Game menu - default view" style="width: 90%;"/>
 </div>
 
-https://github.com/user-attachments/assets/fb3cbab3-a2cb-4aaf-8c50-d3106db39e2f
+https://github.com/user-attachments/assets/15e6214a-1e4f-40a0-8efe-967940f0dbe5
 
 Yup, I should stuck to programming...
 
